@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sabores:hover{
+    filter: opacity(50%);
+
+}
+.principal{
+    background: url(../img/font_formule_frances_gris.jpg);
+    object-fit: center;
+    overflow: hidden;
+}
+
+/* media querie */ 
+
+
+@media all and (max-height: 576px){
+.slider-responsive{
+    height: 250px;
+    object-fit: cover;
+}
+}
