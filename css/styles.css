@@ -22,4 +22,7 @@
     height: 250px;
     object-fit: cover;
 }
+.centrar{
+    text-align: center;
+}
 }
